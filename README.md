@@ -13,4 +13,4 @@ Calculates the binomial likelihood. See paper for more details.
 Calculates positive and negative feedback respectively. 
 
 ####seqprob.m and seqprobr.m
-Given a series of 6 4-button sequences, correctly infers each sequence 6 times in at most 20 trials. The two models differ only in their calculation of the reward function, rij. 
+Given a series of 6 4-button sequences, correctly infers each sequence 6 times in at most 20 trials. The two models differ only in their calculation of the reward function, rij. Seqprobr has a modifiable learning rate as well as a memory decay component, both default set to 0.5. Feedback parameters can also be adjusted.  
